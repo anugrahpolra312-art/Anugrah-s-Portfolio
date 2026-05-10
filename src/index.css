@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-bg-base: #0a0f1e;
+  --color-bg-surface: #0f172a;
+  --color-bg-card: #111827;
+  --color-bg-elevated: #1a2236;
+
+  /* Accents (direct utility access) */
+  --color-accent-purple: #8b5cf6;
+  --color-accent-cyan: #06b6d4;
+
+  /* Text */
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #475569;
+
+  /* Fonts */
+  --font-heading: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Animations */
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-pulse-slow: pulse 3s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-8px); }
+  }
+}
+
+:root {
+  --accent-purple: #8b5cf6;
+  --accent-cyan:   #06b6d4;
+  --glow-purple:   0 0 20px rgba(139, 92, 246, 0.25);
+  --glow-cyan:     0 0 20px rgba(6, 182, 212, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0f1e;
+  color: #f8fafc;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: rgba(17, 24, 39, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  border-radius: 16px;
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(139, 92, 246, 0.4);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+}
+
+.text-text-secondary { color: #94a3b8; }
+.text-text-muted     { color: #475569; }
