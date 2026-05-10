@@ -16,15 +16,15 @@ const timelineData = [
     year: '2025–Present',
     icon: GraduationCap,
     degree: 'B.Tech Computer Engineering with specialization in AI/ML.',
-    institution: 'Slver Oak Univesity.',
+    institution: 'Silver Oak University.',
     coursework: ['C language', 'OOPs in C++', 'AEM-II', 'BEEE', 'Dynamic Communication'],
   },
   {
     year: '2021–2023',
     icon: BookOpen,
     degree: 'Class XII — Higher Secondary',
-    institution: 'Smt. S.H. Gajera higher secondary school Amreli.',
-    coursework: ['Physics', 'Chemistry', 'Mathematics', 'English', 'Computer '],
+    institution: 'Smt. S.H. Gajera Higher Secondary School, Amreli.',
+    coursework: ['Physics', 'Chemistry', 'Mathematics', 'English', 'Computer Science'],
   },
 ];
 

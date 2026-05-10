@@ -43,7 +43,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/' },
     { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://www.linkedin.com/in/anugrah-polara-0b2862376?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
-    { icon: Mail, label: 'Email', href: 'anugrahpolra312@gmail.com' },
+    { icon: Mail, label: 'Email', href: 'mailto:anugrahpolra312@gmail.com' },
   ];
 
   return (
@@ -121,12 +121,14 @@ const Hero = () => {
 
           {/* CTAs */}
           <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
-            <button className="group flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 text-white font-medium transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(139,92,246,0.4)]">
+            <a
+              href="/RESUME.docx"
+              download
+              className="group flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 text-white font-medium transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(139,92,246,0.4)]"
+            >
               <Download size={18} />
-              <a href="c:\Users\Admin\Desktop\RESUME.docx" download="c:\Users\Admin\Desktop\RESUME.docx">
-                Download Resume
-              </a>
-            </button>
+              Download Resume
+            </a>
             <button
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="group flex items-center gap-2 px-6 py-3 rounded-full border border-white/20 text-white font-medium transition-all duration-200 hover:border-white/40 hover:bg-white/5"
