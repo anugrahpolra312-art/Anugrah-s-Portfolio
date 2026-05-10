@@ -41,9 +41,9 @@ const HeroCard = () => (
 
 const Hero = () => {
   const socialLinks = [
-    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/' },
+    { icon: GithubIcon, label: 'GitHub', href: 'https://github.com/anugrahpolra312-art' },
     { icon: LinkedinIcon, label: 'LinkedIn', href: 'https://www.linkedin.com/in/anugrah-polara-0b2862376?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
-    { icon: Mail, label: 'Email', href: 'mailto:anugrahpolra312@gmail.com' },
+    { icon: Mail, label: 'Email', href: 'Mail to : anugrahpolra312@gmail.com' },
   ];
 
   return (
