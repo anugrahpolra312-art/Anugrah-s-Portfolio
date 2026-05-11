@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { Download, ArrowRight, Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, TwitterXIcon } from '../components/SocialIcons';
 import { fadeUp, staggerContainer } from '../animations/variants';
+import profileImg from '../assets/Anugrahpic.jpeg';
 
 const HeroCard = () => (
   <motion.div
@@ -11,8 +12,12 @@ const HeroCard = () => (
     className="glass-card p-6 w-72"
   >
     <div className="flex flex-col items-center gap-4">
-      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-purple-500/40 to-cyan-400/40 ring-2 ring-purple-500/50 flex items-center justify-center text-3xl select-none">
-        👨‍💻
+      <div className="w-20 h-20 rounded-full overflow-hidden ring-2 ring-purple-500/50 flex items-center justify-center select-none">
+        <img
+          src={profileImg}
+          alt="Anugrah Polara"
+          className="w-full h-full object-cover"
+        />
       </div>
       <div className="text-center">
         <p className="font-heading font-bold text-white text-lg leading-tight">Anugrah Polara</p>
@@ -116,7 +121,7 @@ const Hero = () => {
             variants={fadeUp}
             className="text-text-secondary text-lg max-w-[520px] leading-relaxed"
           >
-            Passionate B.Tech Computer Engineering student focused on building modern, user-friendly and impactful digital experiences. Enthusiastic about UI/UX design, cloud technologies, hackathons and creating innovative tech solutions.
+            Passionate B.Tech Computer Engineering with specialization in AI/ML student focused on building modern, user-friendly and impactful digital experiences. Enthusiastic about UI/UX design, cloud technologies, hackathons and creating innovative tech solutions.
           </motion.p>
 
           {/* CTAs */}

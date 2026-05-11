@@ -16,7 +16,7 @@ const Footer = () => (
     <div className="relative z-10 max-w-[1200px] mx-auto px-6 py-20 flex flex-col items-center gap-6 text-center">
       {/* Monogram */}
       <span className="text-4xl font-heading font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
-        AP
+        Anugrah's portfolio
       </span>
 
       <p className="font-heading font-semibold text-xl text-white">Anugrah Polara</p>
@@ -42,7 +42,7 @@ const Footer = () => (
       <div className="w-full h-px bg-white/10" />
 
       <p className="text-text-muted text-sm">
-        © 2026 Anugrah Polra. Designed &amp; built with ❤️ using React + Tailwind.
+        © 2026 Anugrah Polra.
       </p>
     </div>
   </footer>

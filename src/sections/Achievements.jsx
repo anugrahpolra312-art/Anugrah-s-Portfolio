@@ -21,7 +21,6 @@ const stats = [
 const achievements = [
   { icon: Trophy, title: 'Hackathon Participant', desc: 'Competed in 5+ national hackathons, building impactful prototypes.', tag: 'Competition' },
   { icon: Award, title: 'Technical Certifications', desc: 'Earned 2+ certifications in Concept of computer and c programing language.', tag: 'Certification' },
-  { icon: Code, title: 'Open Source Contributions', desc: 'Contributed to 3+ open-source repositories on GitHub across multiple tech stacks.', tag: 'Open Source' },
   { icon: Cpu, title: 'PromptWars Challenge', desc: 'Participated in AI prompt engineering competitions, ranking in top percentiles.', tag: 'AI Challenge' },
   { icon: BookOpen, title: 'IEEE Member & Activities', desc: 'Active IEEE student member, participating in technical events and workshops.', tag: 'Community' },
 
