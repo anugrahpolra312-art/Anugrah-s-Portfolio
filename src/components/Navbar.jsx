@@ -70,9 +70,13 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <button className="px-5 py-2 text-sm border border-purple-500/50 text-purple-400 rounded-full transition-all duration-300 hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white hover:border-transparent hover:shadow-[0_0_15px_rgba(139,92,246,0.3)]">
+            <a 
+              href="/RESUME.docx" 
+              download 
+              className="px-5 py-2 text-sm border border-purple-500/50 text-purple-400 rounded-full transition-all duration-300 hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white hover:border-transparent hover:shadow-[0_0_15px_rgba(139,92,246,0.3)]"
+            >
               Resume ↓
-            </button>
+            </a>
           </div>
 
           <div className="md:hidden">
@@ -114,9 +118,13 @@ const Navbar = () => {
                 </button>
               ))}
               <div className="pt-8">
-                <button className="w-full max-w-[200px] mx-auto py-3 border border-purple-500/50 text-purple-400 rounded-full transition-all hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white hover:border-transparent">
+                <a 
+                  href="/RESUME.docx" 
+                  download 
+                  className="inline-block w-full max-w-[200px] mx-auto py-3 border border-purple-500/50 text-purple-400 rounded-full transition-all hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white hover:border-transparent"
+                >
                   Resume ↓
-                </button>
+                </a>
               </div>
             </div>
           </motion.div>
