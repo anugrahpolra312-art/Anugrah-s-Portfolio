@@ -127,7 +127,7 @@ const Hero = () => {
           {/* CTAs */}
           <motion.div variants={fadeUp} className="flex flex-wrap gap-4">
             <a
-              href="/RESUME.docx"
+              href="/RESUME.pdf"
               download
               className="group flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-cyan-400 text-white font-medium transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(139,92,246,0.4)]"
             >
