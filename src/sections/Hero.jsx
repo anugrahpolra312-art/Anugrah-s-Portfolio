@@ -12,7 +12,7 @@ const HeroCard = () => (
     className="glass-card py-12 px-8 w-80 min-h-[460px] flex flex-col justify-center"
   >
     <div className="flex flex-col items-center gap-6">
-      <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-purple-500/50 flex items-center justify-center select-none shadow-xl">
+      <div className="w-24 h-24 rounded-full overflow-hidden ring-2 ring-purple-500/50 flex items-center justify-center select-none">
         <img
           src={profileImg}
           alt="Anugrah Polara"
