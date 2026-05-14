@@ -9,10 +9,10 @@ const HeroCard = () => (
   <motion.div
     animate={{ y: [0, -8, 0] }}
     transition={{ duration: 4, ease: 'easeInOut', repeat: Infinity }}
-    className="glass-card p-6 w-72"
+    className="glass-card py-12 px-8 w-80 min-h-[460px] flex flex-col justify-center"
   >
-    <div className="flex flex-col items-center gap-4">
-      <div className="w-20 h-20 rounded-full overflow-hidden ring-2 ring-purple-500/50 flex items-center justify-center select-none">
+    <div className="flex flex-col items-center gap-6">
+      <div className="w-32 h-32 rounded-full overflow-hidden ring-4 ring-purple-500/50 flex items-center justify-center select-none shadow-xl">
         <img
           src={profileImg}
           alt="Anugrah Polara"
@@ -20,7 +20,7 @@ const HeroCard = () => (
         />
       </div>
       <div className="text-center">
-        <p className="font-heading font-bold text-white text-lg leading-tight">Anugrah Polara</p>
+        <p className="font-heading font-bold text-white text-xl leading-tight">Anugrah Polara</p>
         <p className="text-sm text-text-secondary mt-1">1st year AI/ML Student</p>
       </div>
 

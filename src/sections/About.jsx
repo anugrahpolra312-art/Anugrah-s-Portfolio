@@ -37,7 +37,7 @@ const About = () => (
           variants={fadeUp}
         >
           <div className="relative">
-            <div className="w-72 h-80 rounded-2xl overflow-hidden ring-2 ring-purple-500/30">
+            <div className="w-80 h-100 rounded-2xl overflow-hidden ring-2 ring-purple-500/30">
               <div className="w-full h-full bg-gradient-to-br from-purple-900/40 to-cyan-900/30 flex items-center justify-center">
                 <span className="text-8xl select-none">👨‍💻</span>
               </div>
