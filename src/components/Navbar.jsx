@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <div className="hidden md:block">
             <a
-              href="/RESUME.pdf"
+              href="/Resume (1).pdf"
               download
               className="px-5 py-2 text-sm border border-purple-500/50 text-purple-400 rounded-full transition-all duration-300 hover:bg-gradient-to-r hover:from-purple-500 hover:to-cyan-400 hover:text-white hover:border-transparent hover:shadow-[0_0_15px_rgba(139,92,246,0.3)]"
             >
